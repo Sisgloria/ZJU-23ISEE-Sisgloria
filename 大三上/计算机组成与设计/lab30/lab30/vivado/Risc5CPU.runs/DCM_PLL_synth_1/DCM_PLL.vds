@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jan  3 21:03:23 2026
+# Process ID: 63236
+# Current directory: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1
+# Command line: vivado.exe -log DCM_PLL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DCM_PLL.tcl
+# Log file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL.vds
+# Journal file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1\vivado.jou
+# Running On: Lenovo-sis, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source DCM_PLL.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 386.840 ; gain = 56.172
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: DCM_PLL
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 21d3d6c50a9572a3 to dir: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/2/1/21d3d6c50a9572a3/DCM_PLL.dcp to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/2/1/21d3d6c50a9572a3/DCM_PLL_sim_netlist.v to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/2/1/21d3d6c50a9572a3/DCM_PLL_sim_netlist.vhdl to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/2/1/21d3d6c50a9572a3/DCM_PLL_stub.v to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/2/1/21d3d6c50a9572a3/DCM_PLL_stub.vhdl to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DCM_PLL_synth_1/DCM_PLL_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP DCM_PLL, cache-ID = 21d3d6c50a9572a3.
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  3 21:03:34 2026...

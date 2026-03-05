@@ -1,0 +1,85 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Sat Jan  3 21:06:48 2026
+| Host         : Lenovo-sis running 64-bit major release  (build 9200)
+| Command      : report_methodology -file PipelineCPUTest_methodology_drc_routed.rpt -pb PipelineCPUTest_methodology_drc_routed.pb -rpx PipelineCPUTest_methodology_drc_routed.rpx
+| Design       : PipelineCPUTest
+| Device       : xc7a200tfbg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 9
++-----------+------------------+--------------------------------+------------+
+| Rule      | Severity         | Description                    | Violations |
++-----------+------------------+--------------------------------+------------+
+| TIMING-14 | Critical Warning | LUT on the clock tree          | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert   | 3          |
+| TIMING-20 | Warning          | Non-clocked latch              | 4          |
+| LATCH-1   | Advisory         | Existing latches in the design | 1          |
++-----------+------------------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Critical Warning
+LUT on the clock tree  
+The LUT cpu_clk_BUFG_inst_i_1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell CPUInst/IF_ID_1/ALUCode_reg[1]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) CPUInst/ID_1/Decode0/ALUCode_reg[1]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell CPUInst/IF_ID_1/ALUCode_reg[1]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) CPUInst/ID_1/Decode0/ALUCode_reg[1]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell CPUInst/IF_ID_1/ALUCode_reg[3]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) CPUInst/ID_1/Decode0/ALUCode_reg[0]/CLR,
+CPUInst/ID_1/Decode0/ALUCode_reg[2]/CLR
+CPUInst/ID_1/Decode0/ALUCode_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch CPUInst/ID_1/Decode0/ALUCode_reg[0] cannot be properly analyzed as its control pin CPUInst/ID_1/Decode0/ALUCode_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch CPUInst/ID_1/Decode0/ALUCode_reg[1]/L7 (in CPUInst/ID_1/Decode0/ALUCode_reg[1] macro) cannot be properly analyzed as its control pin CPUInst/ID_1/Decode0/ALUCode_reg[1]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch CPUInst/ID_1/Decode0/ALUCode_reg[2] cannot be properly analyzed as its control pin CPUInst/ID_1/Decode0/ALUCode_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch CPUInst/ID_1/Decode0/ALUCode_reg[3] cannot be properly analyzed as its control pin CPUInst/ID_1/Decode0/ALUCode_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 4 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

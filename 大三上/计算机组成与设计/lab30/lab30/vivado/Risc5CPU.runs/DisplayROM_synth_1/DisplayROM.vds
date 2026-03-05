@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jan  3 21:03:23 2026
+# Process ID: 67128
+# Current directory: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1
+# Command line: vivado.exe -log DisplayROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DisplayROM.tcl
+# Log file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM.vds
+# Journal file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1\vivado.jou
+# Running On: Lenovo-sis, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source DisplayROM.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 388.820 ; gain = 56.309
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: DisplayROM
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 7c2aca59bae3f52f to dir: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/7/c/7c2aca59bae3f52f/DisplayROM.dcp to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/7/c/7c2aca59bae3f52f/DisplayROM_sim_netlist.v to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/7/c/7c2aca59bae3f52f/DisplayROM_sim_netlist.vhdl to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/7/c/7c2aca59bae3f52f/DisplayROM_stub.v to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/vivado_work/3230103327_lab30/vivado/Risc5CPU.cache/ip/2022.2/7/c/7c2aca59bae3f52f/DisplayROM_stub.vhdl to D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/DisplayROM_synth_1/DisplayROM_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP DisplayROM, cache-ID = 7c2aca59bae3f52f.
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  3 21:03:34 2026...

@@ -1,0 +1,24 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_work/3230103327_lab30/src/ALU.v,1767095342,verilog,,D:/vivado_work/3230103327_lab30/src/Add_32bit.v,,ALU,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/Add_32bit.v,1767076634,verilog,,D:/vivado_work/3230103327_lab30/src/Add_4bit.v,,Add_32bit;Add_middle,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/Add_4bit.v,1767076634,verilog,,D:/vivado_work/3230103327_lab30/src/BranchTest.v,,Add_4bit,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/BranchTest.v,1767077195,verilog,,D:/vivado_work/3230103327_lab30/src/Decode.v,,BranchTest,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/Decode.v,1767071919,verilog,,D:/vivado_work/3230103327_lab30/src/EX.v,,Decode,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/EX.v,1767014052,verilog,,D:/vivado_work/3230103327_lab30/src/EXMEM.v,,EX,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/EXMEM.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/ID.v,,EXMEM,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/ID.v,1767013120,verilog,,D:/vivado_work/3230103327_lab30/src/IDEX.v,,ID,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/IDEX.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/IF.v,,IDEX,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/IF.v,1767014618,verilog,,D:/vivado_work/3230103327_lab30/src/IFID.v,,IF,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/IFID.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/InstructionROM.v,,IFID,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/InstructionROM.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/MEMWB.v,,InstructionROM,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/MEMWB.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/RBWRegisters.v,,MEMWB,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/RBWRegisters.v,1766296212,verilog,,D:/vivado_work/3230103327_lab30/src/Risc5CPU.v,,RBWRegisters,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/Risc5CPU.v,1767014605,verilog,,D:/vivado_work/3230103327_lab30/src/mux.v,,Risc5CPU,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/Risc5CPU_tb.v,1766296214,verilog,,,,Risc5CPU_tb_v,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/mux.v,1766296214,verilog,,D:/vivado_work/3230103327_lab30/src/registers.v,,mux,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/src/registers.v,1766296214,verilog,,D:/vivado_work/3230103327_lab30/src/Risc5CPU_tb.v,,registers,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.gen/sources_1/ip/DataRAM/sim/DataRAM.v,1767091642,verilog,,D:/vivado_work/3230103327_lab30/src/ALU.v,,DataRAM,,,../../../../Risc5CPU.gen/sources_1/ip/DCM_PLL,,,,,
+D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,

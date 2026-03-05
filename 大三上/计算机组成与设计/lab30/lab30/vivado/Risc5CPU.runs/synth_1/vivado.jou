@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jan  3 21:03:56 2026
+# Process ID: 37504
+# Current directory: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/synth_1
+# Command line: vivado.exe -log PipelineCPUTest.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PipelineCPUTest.tcl
+# Log file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/synth_1/PipelineCPUTest.vds
+# Journal file: D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.runs/synth_1\vivado.jou
+# Running On: Lenovo-sis, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source PipelineCPUTest.tcl -notrace

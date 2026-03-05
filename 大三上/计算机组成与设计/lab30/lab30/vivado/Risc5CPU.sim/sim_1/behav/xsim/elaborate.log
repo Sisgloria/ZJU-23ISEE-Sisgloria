@@ -1,0 +1,38 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Risc5CPU_tb_v_behav xil_defaultlib.Risc5CPU_tb_v xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [D:/vivado_work/3230103327_lab30/src/IF.v:37]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [D:/vivado_work/3230103327_lab30/src/BranchTest.v:42]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [D:/vivado_work/3230103327_lab30/src/ID.v:89]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [D:/vivado_work/3230103327_lab30/src/ALU.v:40]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [D:/vivado_work/3230103327_lab30/src/ALU.v:41]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Add_4bit
+Compiling module xil_defaultlib.Add_middle
+Compiling module xil_defaultlib.Add_32bit
+Compiling module xil_defaultlib.InstructionROM
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.Decode
+Compiling module xil_defaultlib.RBWRegisters
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.BranchTest
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.EXMEM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.DataRAM
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Risc5CPU
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.Risc5CPU_tb_v
+Built simulation snapshot Risc5CPU_tb_v_behav

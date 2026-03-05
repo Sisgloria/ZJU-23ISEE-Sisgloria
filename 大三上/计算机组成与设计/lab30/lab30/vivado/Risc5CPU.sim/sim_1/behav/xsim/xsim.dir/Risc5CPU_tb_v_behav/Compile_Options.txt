@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "dist_mem_gen_v8_0_13" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "Risc5CPU_tb_v_behav" "xil_defaultlib.Risc5CPU_tb_v" "xil_defaultlib.glbl" -log "elaborate.log" 

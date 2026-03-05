@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.gen/sources_1/ip/DataRAM/sim/DataRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_work/3230103327_lab30/vivado/Risc5CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

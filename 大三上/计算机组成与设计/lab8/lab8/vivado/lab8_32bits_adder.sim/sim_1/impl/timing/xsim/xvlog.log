@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/3230103327_lab8/vivado/lab8_32bits_adder.sim/sim_1/impl/timing/xsim/adder_32bits_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bits
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/3230103327_lab8/src/adder_32bits_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_32bits_tb
